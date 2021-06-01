@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+  background-color: #3f3f4f;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #9f9fc4;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #3d3d70;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #228;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  font-size: 2em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand a:-webkit-any-link{
+	text-decoration: none;
+}
